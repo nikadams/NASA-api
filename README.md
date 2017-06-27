@@ -28,4 +28,5 @@ Technologies used: Java, MVN, TestNG
 * Rate limiting error on frequent API usage does not allow for scalability or performance testing.  
 
 # To Do:
-Schema Validation of JSON 
+Schema Validation of JSON
+Once search parameter is working properly tests can be created to verify results of JSON response.
