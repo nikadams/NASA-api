@@ -1,8 +1,7 @@
 # NASA-api
 
-The goal for this API testing project is to validate that it meets expectations for functionality, reliability, performance, and security of https://api.nasa.gov/planetary/sounds.  
-Normally the testing is conducted against a Mock server or Development environment before it is available the the public in a Production
-environment.  For the sake of this project I am assume this API is under a test environment and not yet released to the public.
+The goal for this API testing project of https://api.nasa.gov/planetary/sounds is to validate that it meets expectations for functionality, reliability, performance, and security.  
+Normally the testing is conducted against a Mock server or in a Development environment before it is available the the public in a Production environment.  For the sake of this project I am assume this API is under a test environment and not yet released to the public.
 
 Technologies used: Java, MVN, TestNG
 
@@ -24,8 +23,8 @@ Technologies used: Java, MVN, TestNG
 
 # Known issues with API
 * API does not respect q search parameter. Any values for q returns the same response.  If this is fixed or changed, testEmptySearchRequest and testInvalidSearchRequest will catch this.
-* API data is static and limited to 64 items.  This allows the verification of count parameter to reach an upper limit.  Also response time testing of extreme limit size is not done due to known issue.
-* Description is null for various results.  Will need to refer to schema specification to validate if this is valid or not.
+* API data is static and limited to 64 items.  This allows the verification of count parameter to reach an upper limit.  Also response time testing of extreme limit size is not done due to this known issue.
+* Description is null for various results.  Will need to refer to schema specification to validate if this is valid or not and should be tested against Schema validation of JSON.
 * Rate limiting error on frequent API usage does not allow for scalability or performance testing.  
 
 # To Do:
