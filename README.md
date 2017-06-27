@@ -7,8 +7,8 @@ environment.  For the sake of this project I am assume this API is under a test 
 Technologies used: Java, MVN, TestNG
 
 # To run import zip or clone into Eclipse/IDE
-From Command line, navigate to root project directory and execute "mvn test".
-Frome Eclipse Right click Project root folder and run as Maven Test.
+* From Command line, navigate to root project directory and execute "mvn test".
+* From Eclipse Right click Project root folder and run as Maven Test.
 
 # Test Cases:
 * testValidRequest: Test Valid request and verify response code
