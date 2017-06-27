@@ -4,7 +4,7 @@ The goal for this API testing project is to validate that it meets expectations 
 Normally the testing is conducted against a Mock server or Development environment before it is available the the public in a Production
 environment.  For the sake of this project I am assume this API is under a test environment and not yet released to the public.
 
-# Technologies used: Java, MVN, TestNG
+Technologies used: Java, MVN, TestNG
 
 # To run import zip or clone into Eclipse/IDE
 From Command line, navigate to root project directory and execute "mvn test".
